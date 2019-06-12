@@ -57,3 +57,11 @@ ps aux | grep redis
 
 https://blog.csdn.net/java_xuetu/article/details/80299509
 
+
+#nvm Node version manager
+nvm常用命令
+
+输入nvm list -- 查看有哪些 node 版本
+
+输入nvm use --- 使用某一个版本 例如 ： nvm use 8.6.0
+
