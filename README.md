@@ -107,3 +107,7 @@ export PATH=$NODE_HOME/bin:$PATH
 $  source /etc/profile
 
 5.再次使用node -v查看node版本，不出意外版本号应该变为你想要的。
+
+
+#如果采用nvm安装node 则升级采用
+##nvm install stable
