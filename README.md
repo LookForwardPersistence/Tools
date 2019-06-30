@@ -9,7 +9,7 @@ Tools
 * @author fanqianghua
 * @date $date$
 */
-- param默认值 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {if(params[i] == '') return result;if(i==0) result += '\\n'; result+=' * @param ' + params[i] + ((i < params.size() - 1) ? '\\n' : '')}; return result", methodParameters())
+- param默认值： groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {if(params[i] == '') return result; result+='* @param ' + params[i] + ((i < params.size() - 1) ? '\\n' : '')}; return result", methodParameters()) 
 
 # redis 安装
 一、Linux在线安装redis
