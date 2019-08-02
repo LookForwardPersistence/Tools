@@ -11,8 +11,9 @@ Tools
 */
 - param默认值： groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {if(params[i] == '') return result; result+='* @param ' + params[i] + ((i < params.size() - 1) ? '\\n' : '')}; return result", methodParameters()) 
 
-# idea 查看方法注释快捷键
-- Ctrl+q
+# idea 操作快捷键
+- 查看方法注释快捷键:Ctrl+q
+- 剪切整行代码: ctrl+x
 # redis 安装
 一、Linux在线安装redis
 1、因为redis是c语言开发的，所以需要安装gcc（在根目录下执行）：
